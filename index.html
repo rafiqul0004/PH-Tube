@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>PH Tube</title>
+    <link rel="shortcut icon" href="resources/Logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo part -->
+        <div class="container">
+            <div class="logo-container d-flex justify-content-between align-items-center m-auto">
+                <a href="index.html">
+                    <img class="m-3 m-md-5" src="resources/Logo.png" alt="logo">
+                </a>
+                    <div class="d-flex align-items-center">
+                    <button id="sort-by-view" class="btn btn-secondary sort-button me-3">Sort By View</button>
+                    <button class="btn btn-danger blog"><a class="text-white text-decoration-none" target="blank" href="blog.html">Blog</a></button>
+                    </div>
+            </div>
+        </div>
+
+        <hr>
+
+
+
+
+        <!-- Category Part -->
+        <div class="category">
+            <div
+              id="categoryButtons"
+              class=" d-flex flex-column flex-md-row justify-content-center align-items-center m-auto"
+            >
+                <button id="all-category" class="btn btn-danger m-3 m-md-5">
+                  ALL
+                </button>
+                <button id="music-category" class="btn btn-secondary m-3 m-md-5">Music</button>
+                <button id="comedy-category" class="btn btn-secondary m-3 m-md-5">Comedy</button>
+                <button id="drawing-category" class="btn btn-secondary m-3 m-md-5">Drawing</button>
+            </div>
+          </div>
+
+
+        <!-- Display Each Video -->
+        <div id="video-container"></div>
+    </div>
+
+
+
+
+
+    <!-- Script File -->
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
